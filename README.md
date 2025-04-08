@@ -5,8 +5,8 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d903d4b3-0e69-4444-9175-c9b7ab1b5350" 
        alt="Verilogverse Banner" 
-       width="750" 
-       style="border-radius: 10px; display: block; margin: auto;" />
+       width="400" 
+       style="border-radius: 5px; display: block; margin: auto;" />
 </p>
 
 ---
