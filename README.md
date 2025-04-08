@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/QpVUMRUJGokfqXyfa1/giphy.gif" width="50%" />
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExODdrcTZkaTRmemdud2psNzVoOW5xZ3oxb2M5NDY5NzY4bzdjMHJxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IG3DGUzcsIx7TueQpa/giphy.gif" width="50%" />
 </p>
 
 ![Verilog](https://img.shields.io/badge/Language-Verilog-blue.svg)
