@@ -2,7 +2,8 @@
 
 **Embarking on a journey through the realms of Verilog and VLSI design.**
 
-![Verilogverse Banner](https://ibb.co/Ng5jgvdw)
+![banner](https://github.com/user-attachments/assets/06e21ffb-e6a2-4862-beee-922649015524)
+
 
 ---
 
