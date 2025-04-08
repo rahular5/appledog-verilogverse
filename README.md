@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://media.giphy.com/media/QpVUMRUJGokfqXyfa1/giphy.gif" width="50%" />
+</p>
+
 ![Verilog](https://img.shields.io/badge/Language-Verilog-blue.svg)
 ![VLSI](https://img.shields.io/badge/Field-VLSI-orange)
 ![Daily Progress](https://img.shields.io/badge/Progress-Day--1-green)
