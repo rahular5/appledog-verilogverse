@@ -2,8 +2,7 @@
 
 **Embarking on a journey through the realms of Verilog and VLSI design.**
 
-![banner](https://github.com/user-attachments/assets/06e21ffb-e6a2-4862-beee-922649015524)
-
+<img src="https://github.com/user-attachments/assets/06e21ffb-e6a2-4862-beee-922649015524" alt="banner" width="100%" style="border-radius: 12px;"/>
 
 ---
 
