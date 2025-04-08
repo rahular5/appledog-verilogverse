@@ -2,13 +2,13 @@
 <h3 align="center">Embarking on a journey through the realms of Verilog and VLSI design.</h3>
 
 <p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExODdrcTZkaTRmemdud2psNzVoOW5xZ3oxb2M5NDY5NzY4bzdjMHJxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IG3DGUzcsIx7TueQpa/giphy.gif" width="35%" alt="Digital Circuit Animation"/>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExODdrcTZkaTRmemdud2psNzVoOW5xZ3oxb2M5NDY5NzY4bzdjMHJxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IG3DGUzcsIx7TueQpa/giphy.gif" width="25%" alt="Digital Circuit Animation"/>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Verilog-blue.svg"/>
   <img src="https://img.shields.io/badge/Field-VLSI-orange"/>
-  <img src="https://img.shields.io/badge/Progress-Day--n-green"/>
+  <img src="https://img.shields.io/badge/Progress-Day--nth-green"/>
   <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-red"/>
 </p>
 
