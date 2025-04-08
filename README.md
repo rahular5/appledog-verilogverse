@@ -8,7 +8,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Verilog-blue.svg"/>
   <img src="https://img.shields.io/badge/Field-VLSI-orange"/>
-  <img src="https://img.shields.io/badge/Progress-Day--1-green"/>
+  <img src="https://img.shields.io/badge/Progress-Day--n-green"/>
   <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-red"/>
 </p>
 
