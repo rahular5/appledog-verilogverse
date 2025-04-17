@@ -2,4 +2,4 @@
 COMPLEX DESIGN (top level module) TO BE IMPLEMENTED USING SMALL DESIGNS (lower level modelling)
 
 # full adder using half adder
-![image](https://github.com/user-attachments/assets/405eb944-eecd-4be2-97ca-db1c4e6dd03c)
+<img width="881" alt="Screenshot 2025-04-17 at 7 53 08 PM" src="https://github.com/user-attachments/assets/c7b68d0b-e33f-4cdf-9410-98f600b7ec81" />
