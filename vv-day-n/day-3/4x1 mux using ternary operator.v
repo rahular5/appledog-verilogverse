@@ -1,6 +1,6 @@
 module mux4x1_ter_operator (I, S, Y);
   
-  input [3:0] I;
+  input [1:0] I;
   input [2:0] S;
   output Y;
   
