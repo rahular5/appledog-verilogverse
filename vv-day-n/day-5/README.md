@@ -4,4 +4,5 @@
 always #5 clk1 = ~clk1; 
 
 always @(clk1)
+
  #5 clk2 = clk1; 
