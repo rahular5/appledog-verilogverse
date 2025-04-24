@@ -1,3 +1,4 @@
+# counter.v
 ```
 module counter(clk,rst,count);
   
@@ -34,6 +35,31 @@ module counter(clk,rst,count);
         else
           temp<=temp-1;
   end
+endmodule
+```
+# counter_tb.v
+```
+module test;
+  
+  reg clk,rst;
+  wire[2:0]count;
+  
+  counter dut(clk,rst,count);
+  
+  initial begin
+    clk = 0;
+    rst = 1;
+    #13 rst = 0;
+    #1000 $finish;
+  end
+  
+  always #5 clk =~clk;
+  
+  initial begin
+    $dumpfile("dump.vcd");
+    $dumpvars(2,test);
+  end
+  
 endmodule
 ```
 ![image](https://github.com/user-attachments/assets/1817fae9-5233-4289-b229-f0ed65f2392c)
