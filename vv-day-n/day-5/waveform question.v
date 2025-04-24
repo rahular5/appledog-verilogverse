@@ -1,3 +1,44 @@
+
+//generate a clock of 20 ns time period with 40 percent duty cycle
+module clkgeneration;
+  reg clk;
+  initial begin
+    clk = 0;
+    #500 $finish;
+  end
+  
+  always begin
+    #8 clk = 1;
+    #12 clk = 0;
+  end
+  
+  initial begin
+    $dumpfile("dump.vcd");
+    $dumpvars(0,clk);
+  end
+endmodule
+
+
+// Verilog code to generate a clock for 200 mhz frequency. 
+module tb;
+  reg clk;
+  
+  initial begin
+    clk = 0;
+    #1000 $finish;
+  end
+  
+  always begin
+    #2.5 clk =~clk;
+  end
+  
+  initial begin
+    $dumpfile("dump.vcd");
+    $dumpvars(0,clk);
+  end
+  
+endmodule
+
 ///Generate 2 clock each of 10ns time period and 50 percent duty. Clk2 is delayed version of clock 1 by 5 ns.
 module clk_waveform;
   reg clk1, clk2;
@@ -20,24 +61,3 @@ module clk_waveform;
   end
 
 endmodule
-
-
-//generate a clock of 20 ns time period with 40 percent duty cycle
-module clkgeneration;
-  reg clk;
-  initial begin
-    clk = 0;
-    #500 $finish;
-  end
-  
-  always begin
-    #8 clk = 1;
-    #12 clk = 0;
-  end
-  
-  initial begin
-    $dumpfile("dump.vcd");
-    $dumpvars(0,clk);
-  end
-endmodule
-  
