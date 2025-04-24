@@ -1,4 +1,4 @@
-///To generate the clk1 of 50% duty cycle and another clk2 delayed by half of clk1 duty cycle
+///Generate 2 clock each of 10ns time period and 50 percent duty. Clk2 is delayed version of clock 1 by 5 ns.
 module clk_waveform;
   reg clk1, clk2;
 
