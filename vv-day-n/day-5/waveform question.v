@@ -20,3 +20,24 @@ module clk_waveform;
   end
 
 endmodule
+
+
+//generate a clock of 20 ns time period with 40 percent duty cycle
+module clkgeneration;
+  reg clk;
+  initial begin
+    clk = 0;
+    #500 $finish;
+  end
+  
+  always begin
+    #8 clk = 1;
+    #12 clk = 0;
+  end
+  
+  initial begin
+    $dumpfile("dump.vcd");
+    $dumpvars(0,clk);
+  end
+endmodule
+  
