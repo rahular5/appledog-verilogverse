@@ -41,5 +41,6 @@ module test;
   
 endmodule
 ```
+# waveform
 <img width="1436" alt="Screenshot 2025-04-25 at 11 16 03 AM" src="https://github.com/user-attachments/assets/50cfcef8-c774-4a68-8587-24d64971b58f" />
 
