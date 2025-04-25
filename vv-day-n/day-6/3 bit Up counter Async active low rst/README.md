@@ -41,4 +41,5 @@ module test;
   
 endmodule
 ```
- ![image](https://github.com/user-attachments/assets/50c74381-869a-4737-8279-d3d6598c12ed)
+<img width="1436" alt="Screenshot 2025-04-25 at 11 16 03 AM" src="https://github.com/user-attachments/assets/50cfcef8-c774-4a68-8587-24d64971b58f" />
+
