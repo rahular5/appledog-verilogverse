@@ -5,7 +5,7 @@ module test;
   reg clk,rst;
   reg [3:0]count;
   
-  async_low_rst_counter dut (clk,rst,count);
+  mod_10 dut (clk,rst,count);
   
   initial begin
     clk = 0;
