@@ -1,7 +1,7 @@
 
 # Design of mod-10 counter
 ```
-module async_low_rst_counter(clk,rst,count);
+module mod_10(clk,rst,count);
   
   input clk;
   input rst;         
