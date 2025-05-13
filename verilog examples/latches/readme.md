@@ -1,4 +1,5 @@
 ## dlatch with synchronous rst
+
 ```
 module dlatch_sync_rst(D, clk, rst, Q);
   input D, clk, rst;
@@ -15,7 +16,9 @@ module dlatch_sync_rst(D, clk, rst, Q);
   end
 endmodule
 ```
+
 ## test bench for dlatch with synchronous rst
+
 ```
 module tb();
   reg D, clk, rst;
@@ -52,7 +55,9 @@ endmodule
 ```
 ## Waveform
 <img width="1404" alt="Screenshot 2025-05-13 at 10 59 44 PM" src="https://github.com/user-attachments/assets/61da8e14-04da-4ead-be2e-a7834b69b292" />
+
 ## dlatch with asynchronous reset
+
 ```
 module dlatch_Async_rst(D, clk, rst, Q);
   input D, clk, rst;
@@ -64,9 +69,11 @@ module dlatch_Async_rst(D, clk, rst, Q);
       if(clk)
         Q <= D;
   end
-endmodule       
+endmodule 
 ```
+
 ## testbench for dlatch with asynchronous reset
+
 ```
 module dlatch_Async_rst_tb();
   reg D, clk, rst;
