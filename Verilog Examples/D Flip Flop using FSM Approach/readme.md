@@ -68,7 +68,7 @@ endmodule
 ```
 
 ## Output
-
+```
  time:60 | D:1 | Q:0 
  time:65 | D:1 | Q:1 
  time:100 | D:0 | Q:1 
@@ -77,7 +77,9 @@ endmodule
  time:125 | D:1 | Q:1 
  time:160 | D:0 | Q:1 
  time:165 | D:0 | Q:0
+```
 
+ 
  ## Waveform
  
  <img width="1401" alt="Screenshot 2025-05-15 at 3 44 36 PM" src="https://github.com/user-attachments/assets/69c9e315-3eac-44ac-b2ae-82caad1a8760" />
