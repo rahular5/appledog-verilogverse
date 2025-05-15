@@ -1,7 +1,6 @@
+## SR Flip Flop using FSM Approach
 ## State diagram
 <img width="772" alt="Screenshot 2025-05-15 at 3 14 50 PM" src="https://github.com/user-attachments/assets/c01a3ce5-7bed-4696-902d-426e039438d2" />
-
-## SR Flip Flop using FSM Approach
 
 ```
 module sr_ff_fsm_approach(S, R, clk, rst, Q);
