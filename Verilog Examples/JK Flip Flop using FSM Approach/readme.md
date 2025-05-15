@@ -1,9 +1,9 @@
 ## JK Flip Flop using FSM Approach
 
-## state diagram
-![image](https://github.com/user-attachments/assets/6ec96c98-1c5c-48a6-9a76-c0176870d5b6)
+## State Diagram
 
 
+<img width="1399" alt="Screenshot 2025-05-15 at 2 40 55 PM" src="[https://github.com/user-attachments/assets/68055371-1be5-4bb3-b433-4b329517026e](https://github.com/user-attachments/assets/6ec96c98-1c5c-48a6-9a76-c0176870d5b6)" />
 ```
 module jk_ff_fsm_approach(J, K, clk, rst, Q);
   
