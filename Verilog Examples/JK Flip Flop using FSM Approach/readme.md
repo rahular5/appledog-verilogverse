@@ -1,7 +1,8 @@
 ## JK Flip Flop using FSM Approach
 
 ## state diagram
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fgateoverflow.in%2F3347%2Fgate-it-2008-question-37%3Fshow%3D309543&psig=AOvVaw3VON2xJqbYMlA-uLsrOH-8&ust=1747386579944000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMiqkLaQpY0DFQAAAAAdAAAAABAL![image](https://github.com/user-attachments/assets/1192883d-c198-4710-8d90-32b556799210)
+![image](https://github.com/user-attachments/assets/6ec96c98-1c5c-48a6-9a76-c0176870d5b6)
+
 
 ```
 module jk_ff_fsm_approach(J, K, clk, rst, Q);
