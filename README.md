@@ -6,11 +6,6 @@
 
 
 <p align="center">
-  <img src="https://www.nist.gov/sites/default/files/images/2020/04/30/animated-semiconductor-chip.gif" width="25%" alt="Animated Semiconductor Chip"/>
-</p>
-
-
-<p align="center">
   <img src="https://img.shields.io/badge/Language-Verilog-blue.svg"/>
   <img src="https://img.shields.io/badge/Field-VLSI-orange"/>
   <img src="https://img.shields.io/badge/Progress-Day--nth-green"/>
