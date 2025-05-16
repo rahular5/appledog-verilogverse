@@ -3,7 +3,7 @@
 <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" alt="Workspace"  width="40%"/><br> 
 <details>
 <p><strong> <summary> Busy coding & Vibing to : </strong></p>
-## 🌟 Highlights
+ 🌟 Highlights
 
 > *“The silicon may be hard, but the logic is pure.”*  
 > — *appledog 🐾*
