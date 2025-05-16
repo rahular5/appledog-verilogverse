@@ -1,11 +1,11 @@
 
-
+<h1 align="center">🌌 appledog-verilogverse</h1>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=appledog&show_icons=true&theme=shadow_red&hide_title=true&bg_color=000000&title_color=FF3131&text_color=FAFAFA&icon_color=FF3131" alt="GitHub Stats" />
 </p>
 
 
-<h1 align="center">🌌 appledog-verilogverse</h1>
+
 <h3 align="center">Embarking on a journey through the realms of Verilog and VLSI design.</h3>
 
 <p align="center">
