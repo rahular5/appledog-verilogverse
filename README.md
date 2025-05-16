@@ -5,8 +5,8 @@
 <p><strong> <summary> Busy coding & Vibing to : </strong></p>
  
 
-## > *“The silicon may be hard, but the logic is pure.”*  
-## > — *appledog 🐾*
+ > *“ The silicon may be hard, but the logic is pure.”*  
+ > — *appledog 🐾*
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=appledog&show_icons=true&theme=shadow_red&hide_title=true&bg_color=000000&title_color=FF3131&text_color=FAFAFA&icon_color=FF3131" alt="GitHub Stats" />
 </p>
