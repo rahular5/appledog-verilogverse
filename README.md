@@ -2,8 +2,10 @@
 <p align="center"> <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="160px" width="160px"> <img src="https://octodex.github.com/images/daftpunktocat-guy.gif" height="160px" width="160px"> </p>
 
 <p align="center">
+ 
  > *“ The silicon may be hard, but the logic is pure.”*  
  > — *appledog 🐾*
+
 </p>
  
 <p align="center">
