@@ -9,7 +9,7 @@
 <h3 align="center">Embarking on a journey through the realms of Verilog and VLSI design.</h3>
 
 <p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExODdrcTZkaTRmemdud2psNzVoOW5xZ3oxb2M5NDY5NzY4bzdjMHJxZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IG3DGUzcsIx7TueQpa/giphy.gif" width="25%" alt="Digital Circuit Animation"/>
+  <img src="https://media.giphy.com/media/l0MYG8BwSIl3V8QDm/giphy.gif" width="25%" alt="Silicon Chip Closeup"/>
 </p>
 
 <p align="center">
