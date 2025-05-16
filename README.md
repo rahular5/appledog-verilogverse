@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://media.tenor.com/Qf0sWmvCQv0AAAAM/semiconductor-chip.gif" width="25%" alt="Semiconductor Chip"/>
+  <img src="https://www.nist.gov/sites/default/files/images/2020/04/30/animated-semiconductor-chip.gif" width="25%" alt="Animated Semiconductor Chip"/>
 </p>
 
 
