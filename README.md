@@ -1,4 +1,6 @@
 <h1 align="center">🌌 appledog-verilogverse</h1>
+> *“The silicon may be hard, but the logic is pure.”*  
+> — *appledog 🐾*
 <div align="center" width="50">
 <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" alt="Workspace"  width="40%"/><br> 
 <details>
@@ -58,10 +60,7 @@ Easily navigate the repository using these tags:
 
 ---
 
-## 🌟 Highlights
 
-> *“The silicon may be hard, but the logic is pure.”*  
-> — *appledog 🐾*
 
 This repository is a personal journey into the world of digital logic and VLSI design. From basic logic gates to complex sequential circuits, each module is crafted in **Verilog** with a focus on clarity and practical application. Documentation is maintained as a **daily log**, offering insights into the development process, challenges, and learnings along the way.
 
