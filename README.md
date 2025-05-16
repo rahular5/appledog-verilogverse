@@ -1,10 +1,10 @@
 <h1 align="center">🌌 appledog-verilogverse</h1>
-> *“The silicon may be hard, but the logic is pure.”*  
-> — *appledog 🐾*
 <div align="center" width="50">
 <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" alt="Workspace"  width="40%"/><br> 
 <details>
 <p><strong> <summary> Busy coding & Vibing to : </strong></p>
+> *“The silicon may be hard, but the logic is pure.”*  
+> — *appledog 🐾*
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=appledog&show_icons=true&theme=shadow_red&hide_title=true&bg_color=000000&title_color=FF3131&text_color=FAFAFA&icon_color=FF3131" alt="GitHub Stats" />
 </p>
