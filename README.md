@@ -5,7 +5,9 @@
 </p>
 
 
-
+<p align="center">
+  <img src="https://media.giphy.com/media/xT0GqzWig3fPSE8c8g/giphy.gif" width="25%" alt="Chip Fabrication"/>
+</p>
 
 
 <p align="center">
