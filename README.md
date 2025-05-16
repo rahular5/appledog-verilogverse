@@ -1,4 +1,9 @@
-<h1>🌌 appledog-verilogverse</h1>
+<h1 align="center">🌌 <span style="color:#7FFFD4">appledog-verilogverse</span> 🌌</h1>
+
+<p align="center">
+  <em><strong>“A cosmos of logic, where silicon breathes in binary and dreams in Verilog.”</strong></em>  
+</p>
+
 <p> <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="160px" width="160px"> <img src="https://octodex.github.com/images/daftpunktocat-guy.gif" height="160px" width="160px"> </p>
 
 <p align="center">
