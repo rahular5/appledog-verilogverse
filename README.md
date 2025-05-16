@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://media.giphy.com/media/xT0GqzWig3fPSE8c8g/giphy.gif" width="25%" alt="Chip Fabrication"/>
+  <img src="https://media.tenor.com/4VRqDchcw78AAAAM/circuit-board.gif" width="25%" alt="Circuit Board Lights"/>
 </p>
 
 
