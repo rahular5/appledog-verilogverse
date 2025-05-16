@@ -6,13 +6,7 @@
 
 
 
-<p align="center">
-  <img src="https://media.giphy.com/media/U1fArCKFvhzDs/giphy.gif" width="25%" alt="Circuit Board Animation"/>
-</p>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/l0MYG8BwSIl3V8QDm/giphy.gif" width="25%" alt="Silicon Chip Closeup"/>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Verilog-blue.svg"/>
