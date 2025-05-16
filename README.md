@@ -1,7 +1,5 @@
 <h1 align="center">🌌 appledog-verilogverse</h1>
-<div align="center" width="50">
-<img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" alt="Workspace"  width="40%"/><br> 
-<details>
+<p align="center"> <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="160px" width="160px"> <img src="https://octodex.github.com/images/daftpunktocat-guy.gif" height="160px" width="160px"> </p>
 <p><strong> <summary> Busy coding & Vibing to : </strong></p>
  
 
