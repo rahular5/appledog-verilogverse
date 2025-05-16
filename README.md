@@ -1,4 +1,4 @@
-<h2 align="center">👨‍💻 GitHub Stats</h2>
+
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=appledog&show_icons=true&theme=shadow_red&hide_title=true&bg_color=000000&title_color=FF3131&text_color=FAFAFA&icon_color=FF3131" alt="GitHub Stats" />
