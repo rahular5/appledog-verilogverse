@@ -1,4 +1,4 @@
-<h1 align="center">🌌 <span style="color:#7FFFD4">appledog-verilogverse</span> 🌌</h1>
+<h1 align="center"> <span style="color:#7FFFD4">AppleDog VerilogVerse</span> </h1>
 
 <p align="center">
   <em><strong>“A cosmos of logic, where silicon breathes in binary and dreams in Verilog.”</strong></em>  
