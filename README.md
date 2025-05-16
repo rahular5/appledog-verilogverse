@@ -2,7 +2,7 @@
 
 <p align="center">
 # Hey <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="10px" height="40px">, I'm <a href="https://achyutghosh.github.io/">Rahul</a> ! <!--<img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50">-->
-</p>
+
 
 <p align="center">
   <em><strong>“A cosmos of logic, where silicon breathes in binary and dreams in Verilog.”</strong></em>  
