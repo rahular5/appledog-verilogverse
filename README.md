@@ -23,18 +23,34 @@ Each day unfolds a new chapter — building upon the last — all working toward
 
 ---
 
-## 📅 Daily Log
+# ⚡ Verilogverse: A Digital Logic Design Playground
 
-Stay tuned for daily progress logs with circuit diagrams, simulation snapshots, and implementation steps as I explore Verilog from scratch — **Day 1 to Infinity**!
-
-| Day | Topic / Task                        | Description                              | Status     |
-|-----|-------------------------------------|------------------------------------------|------------|
-| 1   | Hello Verilog!                      | Setup, Syntax & First Simulation         | ✅ Completed |
-| 2   | Combinational Circuits              | Basic gates, mux, decoders               | 🔄 In Progress |
-| 3   | Sequential Circuits                 | Flip-flops, counters                     | ⏳ Planned |
-| ... | ...                                 | ...                                      | ...        |
+> A modular world of Verilog HDL experiments, focused on building blocks of digital electronics. Whether you're exploring gates or mastering sequential design, **Verilogverse** is your launchpad.
 
 ---
+
+## 🌟 Overview
+
+This folder contains categorized Verilog modules and testbenches:
+
+| 🗂️ Category        | 🧩 Example Modules                        | 🔖 Tag     |
+|--------------------|-------------------------------------------|------------|
+| 🔌 Logic Gates      | `and.v`, `or.v`, `not.v`                  | `#GATES`   |
+| 🔀 Combinational    | `mux.v`, `encoder.v`, `decoder.v`         | `#COMB`    |
+| ⏱️ Sequential       | `counter.v`, `dff.v`, `shift_register.v`  | `#SEQ`     |
+| 🧪 Testbenches      | `*_tb.v` files for all modules            | `#TB`      |
+
+Use these files to simulate, modify, and learn digital circuit design step-by-step.
+
+---
+
+## 🔍 Quick Search Tips
+
+Search with tags like:
+#GATES   - Basic logic gate modules
+#COMB    - Combinational circuits
+#SEQ     - Sequential designs
+#TB      - Testbenches for verification
 
 ## 🌟 Highlights
 
