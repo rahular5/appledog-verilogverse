@@ -1,3 +1,5 @@
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=shadow_red)
+
 <h1 align="center">🌌 appledog-verilogverse</h1>
 <h3 align="center">Embarking on a journey through the realms of Verilog and VLSI design.</h3>
 
