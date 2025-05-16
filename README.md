@@ -49,28 +49,36 @@ Use these files to simulate, modify, and learn digital circuit design step-by-st
 
 ## 🔍 Quick Search Tips
 
-Search with tags like:
-#GATES   - Basic logic gate modules
-#COMB    - Combinational circuits
-#SEQ     - Sequential designs
-#TB      - Testbenches for verification
+Easily navigate the repository using these tags:
+
+- `#GATES` – Basic logic gate modules  
+- `#COMB` – Combinational circuits  
+- `#SEQ` – Sequential designs  
+- `#TB` – Testbenches for verification  
+
+---
 
 ## 🌟 Highlights
 
-> “The silicon may be hard, but the logic is pure.”  
-> — appledog 🐾
+> *“The silicon may be hard, but the logic is pure.”*  
+> — *appledog 🐾*
 
-- 💻 Written entirely in **Verilog**
-- 🎯 Focused on practical **VLSI Design**
-- 📈 Progressively documented as a **daily log**
-- 💡 Driven by curiosity, powered by coffee ☕
+This repository is a personal journey into the world of digital logic and VLSI design. From basic logic gates to complex sequential circuits, each module is crafted in **Verilog** with a focus on clarity and practical application. Documentation is maintained as a **daily log**, offering insights into the development process, challenges, and learnings along the way.
+
+- 💻 Developed entirely in **Verilog HDL**  
+- 🎯 Emphasis on **practical VLSI Design**  
+- 📈 Logged progressively as a **daily design journal**  
+- ☕ Powered by **curiosity**, **coffee**, and **RTL simulations**  
 
 ---
 
 ## 📫 Connect with Me
-<p align="center">
-- [LinkedIn](https://www.linkedin.com/in/rahul-a-rabinal-173802228)
-- [GitHub Profile](https://github.com/appledog)
-- Stay tuned & star the repo if you like the journey 🌟
-</p>
+
+Feel free to reach out or explore more of my work:
+
+- 🔗 [**LinkedIn**](https://www.linkedin.com/in/rahul-a-rabinal-173802228)
+- 💻 [**GitHub Profile**](https://github.com/appledog)
+
+⭐ **Star the repo** if you find it insightful and want to support the journey!
+
 ---
