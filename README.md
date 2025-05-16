@@ -4,19 +4,26 @@
   <em><strong>“A cosmos of logic, where silicon breathes in binary and dreams in Verilog.”</strong></em>  
 </p>
 
-<p> <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="160px" width="160px"> <img src="https://octodex.github.com/images/daftpunktocat-guy.gif" height="160px" width="160px"> </p>
+<p align="center">
+  <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" height="160px" width="160px">
+  <img src="https://octodex.github.com/images/daftpunktocat-guy.gif" height="160px" width="160px">
+</p>
 
 <p align="center">
- 
- > *“ The silicon may be hard, but the logic is pure.”*  
- > — *appledog 🐾*
-
+  <em>“ The silicon may be hard, but the logic is pure.”</em><br>
+  — <strong>appledog 🐾</strong>
 </p>
- 
-  <img src="https://github-readme-stats.vercel.app/api?username=appledog&show_icons=true&theme=shadow_red&hide_title=true&bg_color=000000&title_color=FF3131&text_color=FAFAFA&icon_color=FF3131" alt="GitHub Stats" />
 
-  <img src="https://img.shields.io/badge/Language-Verilog-blue.svg"/>  <img src="https://img.shields.io/badge/Field-VLSI-orange"/>   <img src="https://img.shields.io/badge/Progress-Day--nth-green"/>   <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-red"/>
- 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=appledog&show_icons=true&theme=shadow_red&hide_title=true&bg_color=000000&title_color=FF3131&text_color=FAFAFA&icon_color=FF3131" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Verilog-blue.svg"/>
+  <img src="https://img.shields.io/badge/Field-VLSI-orange"/>
+  <img src="https://img.shields.io/badge/Progress-Day--nth-green"/>
+  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4-red"/>
+</p>
 
 
 
