@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://media.tenor.com/4VRqDchcw78AAAAM/circuit-board.gif" width="25%" alt="Circuit Board Lights"/>
+  <img src="https://media.tenor.com/Qf0sWmvCQv0AAAAM/semiconductor-chip.gif" width="25%" alt="Semiconductor Chip"/>
 </p>
 
 
