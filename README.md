@@ -68,9 +68,9 @@ Search with tags like:
 ---
 
 ## 📫 Connect with Me
-
+<p align="center">
 - [LinkedIn](https://www.linkedin.com/in/rahul-a-rabinal-173802228)
 - [GitHub Profile](https://github.com/appledog)
 - Stay tuned & star the repo if you like the journey 🌟
-
+</p>
 ---
