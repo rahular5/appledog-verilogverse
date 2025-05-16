@@ -1,10 +1,7 @@
 <div align="center" width="50">
-
-<img src="https://github.com/SP-XD/SP-XD/blob/main/images/hellocoders_rounded.gif?raw=true" alt="Hello Coders" width="60%"/> <br>
 <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" alt="Workspace"  width="40%"/><br> 
-
 <details>
-<p><strong> <summary> Busy coding & Vibing to : </summary> </strong></p>
+<p><strong> <summary> Busy coding & Vibing to : </strong></p>
 
 [![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/your_spotify_username) <br>
 
@@ -89,7 +86,10 @@ class About extends Me {
 ```
 
 <h1 align="center">🌌 appledog-verilogverse</h1>
+<div align="center" width="50">
 <img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" alt="Workspace"  width="40%"/><br> 
+<details>
+<p><strong> <summary> Busy coding & Vibing to : </strong></p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=appledog&show_icons=true&theme=shadow_red&hide_title=true&bg_color=000000&title_color=FF3131&text_color=FAFAFA&icon_color=FF3131" alt="GitHub Stats" />
 </p>
