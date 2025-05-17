@@ -172,17 +172,17 @@ endmodule
 ## Output
 
 ```
-time : 0 : rst : 1 | in_seq : x | det_out : x
-time : 5 : rst : 1 | in_seq : x | det_out : 0
-time : 10 : rst : 0 | in_seq : x | det_out : 0
-time : 20 : rst : 0 | in_seq : 0 | det_out : 0
-time : 30 : rst : 0 | in_seq : 1 | det_out : 0
-time : 40 : rst : 0 | in_seq : 0 | det_out : 0
-time : 50 : rst : 0 | in_seq : 1 | det_out : 0
-time : 55 : rst : 0 | in_seq : 1 | det_out : 1
-time : 65 : rst : 0 | in_seq : 1 | det_out : 0
-time : 90 : rst : 0 | in_seq : 0 | det_out : 0
-time : 95 : rst : 0 | in_seq : 0 | det_out : 1
+time : 0 : rst   : 1 | in_seq : x | det_out : x
+time : 5 : rst   : 1 | in_seq : x | det_out : 0
+time : 10 : rst  : 0 | in_seq : x | det_out : 0
+time : 20 : rst  : 0 | in_seq : 0 | det_out : 0
+time : 30 : rst  : 0 | in_seq : 1 | det_out : 0
+time : 40 : rst  : 0 | in_seq : 0 | det_out : 0
+time : 50 : rst  : 0 | in_seq : 1 | det_out : 0
+time : 55 : rst  : 0 | in_seq : 1 | det_out : 1
+time : 65 : rst  : 0 | in_seq : 1 | det_out : 0
+time : 90 : rst  : 0 | in_seq : 0 | det_out : 0
+time : 95 : rst  : 0 | in_seq : 0 | det_out : 1
 time : 105 : rst : 0 | in_seq : 0 | det_out : 0
 time : 110 : rst : 0 | in_seq : 1 | det_out : 1
 time : 115 : rst : 0 | in_seq : 1 | det_out : 0
