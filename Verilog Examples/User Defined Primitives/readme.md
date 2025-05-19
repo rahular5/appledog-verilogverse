@@ -27,4 +27,33 @@ endtable
 
 endprimitive
 ```
+## NAND Operation using User Defined Primitives
+```
+primitive my_nand (Y, A, B);
+input A, B;
+output Y;
 
+table
+  0 0 : 1;
+  0 1 : 1;
+  1 0 : 1;
+  1 1 : 0;
+endtable
+
+endprimitive
+```
+## NOR Operation using User Defined Primitives
+```
+primitive my_nand (Y, A, B);
+input A, B;
+output Y;
+
+table
+  0 0 : 1;
+  0 1 : 0;
+  1 0 : 0;
+  1 1 : 0;
+endtable
+
+endprimitive
+``
