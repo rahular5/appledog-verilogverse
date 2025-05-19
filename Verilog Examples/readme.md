@@ -58,4 +58,3 @@
   <summary>🔢 15. User Defined Primitives</summary>
 </details>
 
-User Defined Primitives
