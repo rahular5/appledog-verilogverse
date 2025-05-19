@@ -53,3 +53,9 @@
 <details>
   <summary>🔢 14. Gradual Up/Down Counter (0 → 7 → 0)</summary>
 </details>
+
+<details>
+  <summary>🔢 15. User Defined Primitives</summary>
+</details>
+
+User Defined Primitives
