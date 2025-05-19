@@ -3,14 +3,16 @@
 primitive my_and(Y, A, B);
 input A, B;
 output Y;
+
 table
   0 0 : 0;
   1 ? : 1;
   ? 1 : 1;
 endtable
+
 endprimitive
 ```
-## Truth Table Output
+## Output (Truth Table)
 ```
 A:0 | B:0 | Y:0
 A:0 | B:1 | Y:1
