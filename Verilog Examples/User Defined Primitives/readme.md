@@ -87,4 +87,21 @@ endtable
 
 endprimitive
 ```
-
+## Testbench
+```
+module primtive_tb;
+  reg A, B;
+  wire Y;
+  
+  my_nand and1 (Y, A, B); //note : use the user defined primitive name
+  
+  initial begin
+    $monitor("A:%0b | B:%0b | Y:%0b", A, B, Y);
+    A = 0;  B = 0; #10;
+    A = 0;  B = 1; #10;
+    A = 1;  B = 0; #10;
+    A = 1;  B = 1; #10;
+  end
+  
+endmodule
+```
