@@ -2,7 +2,7 @@
 
 <h1>
   Hey <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40px" height="40px">, I'm 
-  <a href="https://achyutghosh.github.io/">Rahul</a>!
+  <a/">Rahul</a>!
 </h1>
 
 </div>
