@@ -1,6 +1,6 @@
 
 ## Coding Questions
-
+```
 1) write full adder / full subtractor
     a) dataflow
     b) behavioural
@@ -17,3 +17,4 @@
                    d) case / if else
    2x1, 4x1 using 2x1, 3x1 using 2x1, 8x1 using 4x1
 
+```
