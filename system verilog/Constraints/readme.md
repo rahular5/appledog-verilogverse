@@ -113,7 +113,23 @@ A = 204  B = 54
 > function void pre_randomize( );
 > 
 >    ---
->    -before randomization-
+> 
+>    before randomization executes
+> 
+>    ---
+> 
+>  endfunction
+>
+> > ## post_randomize( );
+> 
+> SYNTAX:
+> 
+> function void post_randomize( );
+> 
+>    ---
+> 
+>    after randomization executes
+> 
 >    ---
 > 
 >  endfunction
