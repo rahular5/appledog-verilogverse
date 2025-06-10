@@ -385,3 +385,43 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >  end
 >endmodule
 >```
+
+>### Question 5) declare a constraint to randomize the array of real numbers in between the range 1.000 to 1.999
+>```
+>class packet;
+>  rand int arr[];
+>  
+>  constraint c1 {arr.size inside {[10:15]};}
+>  constraint c2 {foreach (arr[i])  arr[i] inside {[1000:1999]};}
+>  
+>
+>   function void post_randomize();
+>    real arr2[$];
+>    arr.sort();
+>    foreach(arr[i])
+>      arr2[i]= real'(arr[i])/1000;
+>    foreach(arr2[i])
+>      $display("Arr= %f", arr2[i]);
+>   endfunction
+>  
+>endclass
+>
+>module test;
+>  packet p;
+>  initial begin
+>    p = new();
+>    assert(p.randomize());
+>  end
+>```endmodule
+> ## Output
+>Arr= 1.039000
+>Arr= 1.039000
+>Arr= 1.109000
+>Arr= 1.130000
+>Arr= 1.165000
+>Arr= 1.206000
+>Arr= 1.546000
+>Arr= 1.550000
+>Arr= 1.733000
+>Arr= 1.939000
+>Arr= 1.981000
