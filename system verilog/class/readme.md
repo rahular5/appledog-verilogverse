@@ -1,16 +1,9 @@
 # Classes
 
-## Defination : it is the user defined datatype of sv
-
--> Groups heterogenous datatypes of sv
-
-(1) properties of class -> all signal declarations
-
-(2) methods of class -> functions and tasks inside class
-
-
-> [!NOTE]
-> This is a note. It's for useful information that users should know, even when skimming content.
+> [!Defination : it is the user defined datatype of sv]
+> Groups heterogenous datatypes of sv
+> (1) properties of class -> all signal declarations.
+> (2) methods of class -> functions and tasks inside class
 
 > [!TIP]
 > This is a tip. It offers helpful advice for doing things better or more easily.
