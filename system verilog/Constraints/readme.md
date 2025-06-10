@@ -469,3 +469,45 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >arr[8] = 1000000000000000
 >arr[9] = 0000000100000000
 >```
+
+>### Question 6) write a constraint for 16 bit vector randomize only 13th bit
+>```
+>class packet;
+>  rand bit [15:0] a;
+>
+> ### constraint c1 {
+> ###   foreach (a[i])
+> ###     if (i == 13)
+> ###       a[i] inside {1'b0, 1'b1};
+> ###     else
+> ###       a[i] == 1'b0;
+> ### }
+>  
+>endclass
+>
+>module test;
+>  packet p;
+>  initial begin
+>    p = new();
+>    repeat (10) begin
+>      assert(p.randomize());
+>      $display("a = %016b", p.a);
+>   end
+>  end
+>  
+>endmodule
+>```
+>
+>## Output
+>```
+>a = 0010000000000000
+>a = 0000000000000000
+>a = 0010000000000000
+>a = 0000000000000000
+>a = 0000000000000000
+>a = 0000000000000000
+>a = 0000000000000000
+>a = 0000000000000000
+>a = 0000000000000000
+>a = 0010000000000000
+>```
