@@ -331,4 +331,15 @@ A = '{0, 2, 4, 10, 14, 16, 20, 22, 24, 26, 28, 30, 50, 56}
 A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 ```
 
+> Question 2) write a constrainit to randomize size of dynamic array and to generate even values on odd position and odd values of even position and odd values of even position in 0 to 100
+> ```
+> class packet;
+>  rand int arr[];
+> constraint c1 {foreach(arr[i]) arr[i] inside {[0:100]}; }
+>  constraint c2 {arr.size >= 10 ; arr.size <= 15;}
+>  constraint c3 {foreach (arr[i]) arr[i]%2==0;}
+>  constraint c4 {foreach(arr[i]) if (i>=1) arr[i-1] < arr[i];}
+> endclass
+> ```
+
 
