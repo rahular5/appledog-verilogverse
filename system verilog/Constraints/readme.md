@@ -182,8 +182,42 @@ After randomization
 ```
 #   solve before constraint
 
-> ## constraint c1 { a < b ; solve a before b ; }
+> ## SYNTAX : constraint c1 { a < b ; solve a before b ; }
 
 #   constraint Inheritance
+
+```
+class parent;
+  rand int a;
+  constraint c1 { a  > 100 ; a < 200 ; }
+endclass
+
+class child extends parent;
+  constraint c2 { a > 150 ; a < 190 ;}
+endclass
+
+module test;
+  child c;
+  initial begin
+    c = new();
+    repeat(5) begin
+      assert(c.randomize());
+      $display("A = %0d ",c.a);
+    end
+  end
+endmodule
+```
+
+## Output 
+
+```
+A = 171 
+A = 153 
+A = 160 
+A = 152 
+A = 153
+```
+
+> ### Here we can see only child c constraints are acting because of the inheritance that the child is inheriting the property of the parent and overwriting the constraints
 
 
