@@ -412,9 +412,11 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >    p = new();
 >    assert(p.randomize());
 >  end
->```endmodule
+>endmodule
+>```
 >
-> ```## Output
+> ```
+> ## Output
 >Arr= 1.039000
 >Arr= 1.039000
 >Arr= 1.109000
