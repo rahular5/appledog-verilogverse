@@ -220,4 +220,46 @@ A = 153
 
 > ### Here we can see only child c constraints are acting because of the inheritance that the child is inheriting the property of the parent and overwriting the constraints
 
+# Implication constraint ( ->  <-> )
 
+```
+class packet;
+  rand bit[7:0] data;
+  rand bit low, high;
+  
+  constraint c1 { (low) -> data < 100 ; }
+  constraint c2 { (high) -> data > 100 ; }
+  constraint c3 { low != high ; }
+  
+endclass
+
+module test;
+  packet p;
+  initial begin
+    p = new();
+    $display("Before doing anything");
+    repeat(5)
+      begin
+        assert(p.randomize());
+        $display("DATA = %0d , low = %0b , high = %0b ",p.data,p.low,p.high);
+      end
+  end
+ 
+endmodule
+```
+
+## Output 
+
+```
+Before doing anything
+DATA = 11 , low = 1 , high = 0 
+DATA = 185 , low = 0 , high = 1 
+DATA = 32 , low = 1 , high = 0 
+DATA = 232 , low = 0 , high = 1 
+DATA = 137 , low = 0 , high = 1
+```
+
+> #### we can have foreach loop in constraint
+> #### we can have if else
+> #### and we can have function inside constraint
+> #### var
