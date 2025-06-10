@@ -120,7 +120,7 @@ A = 204  B = 54
 > 
 >  endfunction
 
-> > ## post_randomize( );
+>  ## post_randomize( );
 > 
 > SYNTAX:
 > 
@@ -133,3 +133,51 @@ A = 204  B = 54
 >    ...
 > 
 >  endfunction
+>
+```
+class packet;
+  
+  rand bit[7:0] a;
+  rand byte b;
+  
+  constraint c1 { a > 25 ; a <= 155 ;}
+  constraint c2 { b >= 10 ; b <= 100 ;}
+  
+  function void pre_randomize();
+    $display("HII IM IN pre_randomize FUNCTION");
+  endfunction
+  
+  function void post_randomize();
+    $display("HII IM IN post_randomize FUNCTION");
+    $display("A = %0d  B = %0d ",a,b);
+  endfunction
+  
+endclass
+
+module test;
+  packet p;
+  initial begin
+    p = new();
+    $display("Before doing anything");
+    repeat(2)
+      begin
+        assert(p.randomize());
+      end
+    $display("After randomization");
+  end
+endmodule
+```
+
+## Output
+
+```
+Before randomization
+HII IM IN pre_randomize FUNCTION
+HII IM IN post_randomize FUNCTION
+A = 53  B = 95 
+HII IM IN pre_randomize FUNCTION
+HII IM IN post_randomize FUNCTION
+A = 57  B = 12 
+After randomization
+```
+
