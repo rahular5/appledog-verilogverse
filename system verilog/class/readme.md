@@ -8,8 +8,8 @@
 > 
 > (2) methods of class -> functions and tasks inside class
 
-> [!TIP]
-> This is a tip. It offers helpful advice for doing things better or more easily.
+> [!DEFINATION]
+> it is the user defined datatype of sv.
 
 > [!IMPORTANT]
 > This is important information. Users need to know this to achieve their goal.
