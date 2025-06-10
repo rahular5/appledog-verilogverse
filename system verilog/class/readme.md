@@ -1,21 +1,2 @@
-# Classes
-
-> [!Defination]
-> it is the user defined datatype of sv
-> Groups heterogenous datatypes of sv
-> 
-> (1) properties of class -> all signal declarations.
-> 
-> (2) methods of class -> functions and tasks inside class
-
-> [!DEFINATION]
-> it is the user defined datatype of sv.
-
-> [!IMPORTANT]
-> This is important information. Users need to know this to achieve their goal.
-
-> [!WARNING]
-> This is a warning. It highlights critical content demanding immediate user attention due to potential risks.
-
-> [!CAUTION]
-> This is a caution. It indicates negative potential consequences of an action.
+> [!NOTE]
+> This is a note. It's for useful information that users should know, even when skimming content.
