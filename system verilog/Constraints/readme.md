@@ -295,6 +295,40 @@ DATA = 32 , low = 1 , high = 0
 DATA = 232 , low = 0 , high = 1 
 DATA = 137 , low = 0 , high = 1
 ```
->
-> ### Question 2) write a constraint to a) randomize a dynamic array size inbetween 10 to 15
->                                       b)
+
+> ### Question 2) write a constraint to
+>     a) randomize a dynamic array size inbetween 10 to 15
+>     b) on each location it should generate the unique even number
+>     c) the array must be sorted in acending order
+
+```
+class packet;
+  rand int arr[];
+  constraint c1 {foreach(arr[i]) arr[i] inside {[0:100]}; }
+  constraint c2 {arr.size >= 10 ; arr.size <= 15;}
+  constraint c3 {foreach (arr[i]) arr[i]%2==0;}
+  constraint c4 {foreach(arr[i]) if (i>=1) arr[i-1] < arr[i];}
+endclass
+
+module test;
+  packet p;
+  initial begin
+    p = new();
+    repeat(5) begin
+      assert(p.randomize());
+      $display("A = %0p ",p.arr);
+    end
+  end
+endmodule
+```
+## Output
+
+```
+A = '{6, 8, 12, 14, 20, 42, 44, 46, 48, 74, 80}  
+A = '{0, 4, 40, 58, 60, 66, 70, 80, 82, 86, 88}  
+A = '{2, 4, 8, 10, 24, 28, 32, 36, 40, 56, 74, 90, 100}  
+A = '{0, 2, 4, 10, 14, 16, 20, 22, 24, 26, 28, 30, 50, 56}  
+A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
+```
+
+
