@@ -262,4 +262,17 @@ DATA = 137 , low = 0 , high = 1
 > #### we can have foreach loop in constraint
 > #### we can have if else
 > #### and we can have function inside constraint
-> #### var
+> #### { var == fun_name ; }
+
+# foreach constraints 
+
+> ## SYNTAX : constraint c {foreach (arr[i]) ;}
+>
+> ### Question 1) write a constraint to randomize the value of 1D array in between 0 to 100 range
+``` DATA = 11 , low = 1 , high = 0 
+DATA = 185 , low = 0 , high = 1 
+DATA = 32 , low = 1 , high = 0 
+DATA = 232 , low = 0 , high = 1 
+DATA = 137 , low = 0 , high = 1
+```
+>
