@@ -269,6 +269,26 @@ DATA = 137 , low = 0 , high = 1
 > ## SYNTAX : constraint c {foreach (arr[i]) ;}
 >
 > ### Question 1) write a constraint to randomize the value of 1D array in between 0 to 100 range
+>
+```
+class packet;
+  rand int arr[];
+  constraint c1 {foreach(arr[i]) arr[i] inside {[0:100]}; }
+endclass
+
+module test;
+  packet p;
+  initial begin
+    p = new();
+    repeat(5) begin
+      assert(p.randomize());
+      $display("A = %0p ",p.arr);
+    end
+  end
+endmodule
+```
+
+## Output
 ``` DATA = 11 , low = 1 , high = 0 
 DATA = 185 , low = 0 , high = 1 
 DATA = 32 , low = 1 , high = 0 
