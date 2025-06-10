@@ -180,4 +180,10 @@ HII IM IN post_randomize FUNCTION
 A = 57  B = 12 
 After randomization
 ```
+#   solve before constraint
+
+> ## constraint c1 { a < b ; solve a before b ; }
+
+#   constraint Inheritance
+
 
