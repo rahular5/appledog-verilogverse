@@ -9,3 +9,17 @@
 (2) methods of class -> functions and tasks inside class
 
 
+> [!NOTE]
+> This is a note. It's for useful information that users should know, even when skimming content.
+
+> [!TIP]
+> This is a tip. It offers helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> This is important information. Users need to know this to achieve their goal.
+
+> [!WARNING]
+> This is a warning. It highlights critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> This is a caution. It indicates negative potential consequences of an action.
