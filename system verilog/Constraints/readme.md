@@ -112,11 +112,11 @@ A = 204  B = 54
 > 
 > function void pre_randomize( );
 > 
->    ---
+>    ___
 > 
 >    before randomization executes
 > 
->    ---
+>    ___
 > 
 >  endfunction
 >
@@ -126,10 +126,10 @@ A = 204  B = 54
 > 
 > function void post_randomize( );
 > 
->    ---
+>    ___
 > 
 >    after randomization executes
 > 
->    ---
+>    ___
 > 
 >  endfunction
