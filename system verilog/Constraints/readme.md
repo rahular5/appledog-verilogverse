@@ -365,23 +365,23 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >### Question 3) write a constraint to make sequence 0 1 0 2 0 3 0 4 0 5 0 6 0 7
 >```
 >class packet;
-  rand int arr[];
-  constraint c1 {arr.size inside {[10:15]};}
-  constraint c2 {foreach(arr[i])
-    if (i % 2 == 0 )
-      arr[i] == 0;
-    else 
-      arr[i] == (i+1) / 2 ;   
-  }
-  
-endclass
-
-module test;
-  packet p;
-  initial begin
-    p = new();
-      assert(p.randomize());
-      $display("A = %0p ",p.arr);
-  end
-endmodule
+>  rand int arr[];
+>  constraint c1 {arr.size inside {[10:15]};}
+>  constraint c2 {foreach(arr[i])
+>    if (i % 2 == 0 )
+>      arr[i] == 0;
+>    else 
+>      arr[i] == (i+1) / 2 ;   
+>  }
+>  
+>endclass
+>
+>module test;
+>  packet p;
+>  initial begin
+>    p = new();
+>      assert(p.randomize());
+>      $display("A = %0p ",p.arr);
+>  end
+>endmodule
 >```
