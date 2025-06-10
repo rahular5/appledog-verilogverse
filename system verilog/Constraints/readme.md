@@ -332,7 +332,7 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 ```
 
 
->### Question 2) write a constrainit to randomize size of dynamic array and to generate even values on odd position and odd values of even position and odd values of even position in 0 to 100
+>### Question 3) write a constrainit to randomize size of dynamic array and to generate even values on odd position and odd values of even position and odd values of even position in 0 to 100
 > ```
 >class packet;
 >  rand int arr[];
@@ -362,7 +362,7 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >endmodule
 >```
 
->### Question 3) write a constraint to make sequence 0 1 0 2 0 3 0 4 0 5 0 6 0 7
+>### Question 4) write a constraint to make sequence 0 1 0 2 0 3 0 4 0 5 0 6 0 7
 >```
 >class packet;
 >  rand int arr[];
