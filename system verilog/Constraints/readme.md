@@ -266,8 +266,8 @@ DATA = 137 , low = 0 , high = 1
 
 # foreach constraints 
 
-> ## SYNTAX : constraint c {foreach (arr[i]) ;}
->
+## SYNTAX : constraint c {foreach (arr[i]) ;}
+
 > ### Question 1) write a constraint to randomize the value of 1D array in between 0 to 100 range
 >
 ```
