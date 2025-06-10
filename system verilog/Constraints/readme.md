@@ -362,4 +362,5 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >endmodule
 >```
 
+>### Question 3) write a constrainit to make sequence 0 1 0 2 0 3 0 4 0 5 0 6 0 7 
 
