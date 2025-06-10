@@ -475,13 +475,13 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >class packet;
 >  rand bit [15:0] a;
 >
-> ### constraint c1 {
-> ###   foreach (a[i])
-> ###     if (i == 13)
-> ###       a[i] inside {1'b0, 1'b1};
-> ###     else
-> ###       a[i] == 1'b0;
-> ### }
+>  constraint c1 {
+>    foreach (a[i])
+>      if (i == 13)
+>        a[i] inside {1'b0, 1'b1};
+>      else
+>        a[i] == 1'b0;
+>  }
 >  
 >endclass
 >
