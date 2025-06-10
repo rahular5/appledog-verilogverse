@@ -6,7 +6,7 @@
 >
 > ### if randomization is to be specific properties of class
 >
-> ### SYNTAX : handle_name.proerty_name.rand_mode(0/1);
+ ### SYNTAX : handle_name.proerty_name.rand_mode(0/1);
 
 ```
 class packet;
@@ -55,11 +55,11 @@ A = 57  B = 12
 
 > ### if randomization is to be controlled for all constraints of class
 >
-> ### SYNTAX : handle_name.constraint_mode(0/1);
+ ### SYNTAX : handle_name.constraint_mode(0/1);
 >
 > ### if randomization is to be specific constraints of class ie. all constraints
 >
-> ### SYNTAX : handle_name.constraint_name.rand_mode(0/1);
+ ### SYNTAX : handle_name.constraint_name.rand_mode(0/1);
 
 ```
 class packet;
@@ -182,7 +182,7 @@ After randomization
 ```
 #   solve before constraint
 
-> ## SYNTAX : constraint c1 { a < b ; solve a before b ; }
+ ## SYNTAX : constraint c1 { a < b ; solve a before b ; }
 
 #   constraint Inheritance
 
@@ -296,3 +296,5 @@ DATA = 232 , low = 0 , high = 1
 DATA = 137 , low = 0 , high = 1
 ```
 >
+> ### Question 2) write a constraint to a) randomize a dynamic array size inbetween 10 to 15
+>                                       b)
