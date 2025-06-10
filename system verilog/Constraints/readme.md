@@ -339,6 +339,7 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >  constraint c1 {arr.size >= 10 ; arr.size <= 15;}
 >  constraint c2 {foreach(arr[i]) arr[i] inside {[0:100]}; }
 >  constraint c3 {foreach(arr[i]) if(i>1) arr[i-1] < arr[i];}
+> 
 >  constraint c4 {
 >    foreach(arr[i])
 >      if(i%2 == 0)
@@ -346,6 +347,7 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >    else
 >      arr[i]%2 == 0;
 >  }
+> 
 >endclass
 >
 >module test;
