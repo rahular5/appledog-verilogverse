@@ -119,7 +119,7 @@ A = 204  B = 54
 >    ...
 > 
 >  endfunction
->
+
 > > ## post_randomize( );
 > 
 > SYNTAX:
