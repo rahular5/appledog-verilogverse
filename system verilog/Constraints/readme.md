@@ -1,4 +1,4 @@
-### rand_mode
+# rand_mode
 
 >if randomization is to be controlled for all properties of class
 >
