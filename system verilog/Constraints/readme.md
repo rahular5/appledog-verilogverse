@@ -106,7 +106,7 @@ A = 204  B = 54
 
 # User defined callbacks.
 
-> ## pre_randomize( );
+ ## pre_randomize( );
 > 
 > SYNTAX:
 > 
@@ -120,7 +120,7 @@ A = 204  B = 54
 > 
 >  endfunction
 
->  ## post_randomize( );
+  ## post_randomize( );
 > 
 > SYNTAX:
 > 
