@@ -105,10 +105,11 @@ A = 204  B = 54
 ```
 
 # User defined callbacks.
-> ## pre_randomize( );                    post_randomize( );
+
+> pre_randomize( ); 
 > SYNTAX:
 > function void pre_randomize( );
 >    ---------
 >    ---------
 >    ---------
-> ## endfunction
+>  endfunction
