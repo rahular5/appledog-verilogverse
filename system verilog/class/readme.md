@@ -1,5 +1,6 @@
-# class
-## defination : it is the user defined datatype of sv
+# Classes
+
+## Defination : it is the user defined datatype of sv
 
 -> Groups heterogenous datatypes of sv
 
