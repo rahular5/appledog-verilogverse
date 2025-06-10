@@ -333,13 +333,30 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 
 > Question 2) write a constrainit to randomize size of dynamic array and to generate even values on odd position and odd values of even position and odd values of even position in 0 to 100
 > ```
-> class packet;
+>class packet;
 >  rand int arr[];
-> constraint c1 {foreach(arr[i]) arr[i] inside {[0:100]}; }
->  constraint c2 {arr.size >= 10 ; arr.size <= 15;}
->  constraint c3 {foreach (arr[i]) arr[i]%2==0;}
->  constraint c4 {foreach(arr[i]) if (i>=1) arr[i-1] < arr[i];}
-> endclass
-> ```
+>  constraint c1 {arr.size >= 10 ; arr.size <= 15;}
+>  constraint c2 {foreach(arr[i]) arr[i] inside {[0:100]}; }
+>  constraint c3 {foreach(arr[i]) if(i>1) arr[i-1] < arr[i];}
+>  constraint c4 {
+>    foreach(arr[i])
+>      if(i%2 == 0)
+>        arr[i]%2 != 0;
+>    else
+>      arr[i]%2 == 0;
+>  }
+>endclass
+>
+>module test;
+>  packet p;
+>  initial begin
+>    p = new();
+>    repeat(5) begin
+>      assert(p.randomize());
+>      $display("A = %0p ",p.arr);
+>    end
+>  end
+>endmodule
+>```
 
 
