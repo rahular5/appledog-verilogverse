@@ -301,25 +301,25 @@ DATA = 137 , low = 0 , high = 1
 >     b) on each location it should generate the unique even number
 >     c) the array must be sorted in acending order
 >
->```
->class packet;
-> rand int arr[];
->  constraint c1 {foreach(arr[i]) arr[i] inside {[0:100]}; }
->  constraint c2 {arr.size >= 10 ; arr.size <= 15;}
->  constraint c3 {foreach (arr[i]) arr[i]%2==0;}
->  constraint c4 {foreach(arr[i]) if (i>=1) arr[i-1] < arr[i];}
->endclass
->
->module test;
->  packet p;
->  initial begin
->    p = new();
->    repeat(5) begin
->      assert(p.randomize());
->      $display("A = %0p ",p.arr);
->    end
->  end
->endmodule
+```
+class packet;
+ rand int arr[];
+  constraint c1 {foreach(arr[i]) arr[i] inside {[0:100]}; }
+  constraint c2 {arr.size >= 10 ; arr.size <= 15;}
+  constraint c3 {foreach (arr[i]) arr[i]%2==0;}
+  constraint c4 {foreach(arr[i]) if (i>=1) arr[i-1] < arr[i];}
+endclass
+
+module test;
+  packet p;
+  initial begin
+    p = new();
+    repeat(5) begin
+      assert(p.randomize());
+      $display("A = %0p ",p.arr);
+    end
+  end
+endmodule
 ```
 ## Output
 
