@@ -103,3 +103,12 @@ disabling randomiization for all variables
 A = 96  B = 75 
 A = 204  B = 54
 ```
+
+# User defined callbacks.
+> ## pre_randomize( );                    post_randomize( );
+> SYNTAX:
+> function void pre_randomize( );
+>    ---------
+>    ---------
+>    ---------
+> ## endfunction
