@@ -429,3 +429,43 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >Arr= 1.939000
 >Arr= 1.981000
 >```
+
+>### Question 5) declare a dynamic array of 10 locations. 16 bit each location and we want to generate one hot data
+>```
+>class packet;
+>  rand bit [15:0] arr [10];
+>  
+>  constraint c1 {
+>    foreach (arr[i]) 
+>      $countones(arr[i]) == 1;
+>  }
+>
+>endclass
+>
+>module test;
+>  packet p;
+>  
+>  initial begin
+>    p = new();
+>    assert(p.randomize());
+>    
+>    foreach (p.arr[i]) begin
+>      $display("arr = %016b", p.arr[i]);
+>    end
+>  end
+>  
+>endmodule
+>```
+>## Output
+>```
+>0000000000001000
+>0000000000000010
+>0000000000000010
+>0000000000001000
+>1000000000000000
+>0000000010000000
+>0000000000001000
+>0000000000000100
+>1000000000000000
+>0000000100000000
+>```
