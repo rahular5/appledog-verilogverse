@@ -17,28 +17,38 @@
 > ### Example
 > ```
 > class packet;
-  bit [7:0] adress;
-  bit [7:0] data;
-  
-  function void display();
-    $display("adress : %0b and data : %0b",adress,data);
-  endfunction
-  
-endclass
+>  bit [7:0] adress;
+>  bit [7:0] data;
+>  
+>  function void display();
+>    $display("adress : %0b and data : %0b",adress,data);
+>  endfunction
+>  
+>endclass
+>
+>module test;
+>  packet p;
+>  
+>  initial begin
+>    p = new();
+>    p.display();
+>    p.adress = 100;
+>    p.data = 200;
+>    p.display();
+>  end
+>endmodule
+>```
+> ## Output
+> ```
+> adress : 0 and data : 0
+> adress : 1100100 and data : 11001000
+> ```
+>
+> [NOTE] without allocating the memory the method or class give the error that you are trying to acess null object
+>
+> ### Object and Handle : object is the memory and handle is the pointer to memory
 
-module test;
-  packet p;
-  
-  initial begin
-    p = new();
-    p.display();
-    p.adress = 100;
-    p.data = 200;
-    p.display();
-  end
-  
-endmodule
-```
+
 >
 
 
