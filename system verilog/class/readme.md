@@ -14,5 +14,31 @@
 >
 >## HOW TO DECLARE CLASS:
 >we cant write module inside class or class inside module
+> ### Example
+> ```
+> class packet;
+  bit [7:0] adress;
+  bit [7:0] data;
+  
+  function void display();
+    $display("adress : %0b and data : %0b",adress,data);
+  endfunction
+  
+endclass
+
+module test;
+  packet p;
+  
+  initial begin
+    p = new();
+    p.display();
+    p.adress = 100;
+    p.data = 200;
+    p.display();
+  end
+  
+endmodule
+```
+>
 
 
