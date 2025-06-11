@@ -1,5 +1,5 @@
 # Classes
->[!NOTE]
+>[!NOT]
 >Defination : it is the user defined datatype of sv.
 >
 >-> groups the heterogenous data.
