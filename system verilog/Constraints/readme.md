@@ -511,3 +511,92 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >a = 0000000000000000
 >a = 0010000000000000
 >```
+
+>### Question 6) write a constraint for 16 bit vector with 5 non-consecutive 1's
+>```
+>class packet;
+> rand bit [15:0] a;
+>
+> constraint c1 {
+>   $countones(a) == 5;
+>   foreach(a[i])
+>     if(i<15)
+>       !(a[i] && a[i+1]);
+> }
+> 
+>endclass
+>
+>module test;
+> packet p;
+> initial begin
+>   p = new();
+>   repeat (10) begin
+>     assert(p.randomize());
+>     $display("a = %016b", p.a);
+>  end
+> end
+> 
+>endmodule
+>```
+>
+>## Output
+>```
+>a = 1001010010001000
+>a = 0101000010100100
+>a = 1000000010010101
+>a = 0100001001010001
+>a = 0010001000100101
+>a = 0101001010010000
+>a = 0001000100010101
+>a = 0010101001001000
+>a = 0100001010100100
+>a = 1001000100000101
+>```
+
+>### Question 6) write a constraint for 16 bit vector with 5 consecutive 1's
+>```
+>class packet;
+>  rand bit [15:0] vec;
+>      rand int a;
+>
+>  constraint c1 {
+>    a inside {[0:11]};
+>    foreach(vec[i]){
+>                   if(i>=a && i< a+5)
+>                     vec[i] == 1;
+>                   else
+>                     vec[i] == 0;
+>                 } 
+> }
+> 
+>endclass
+>
+>module test;
+> packet p;
+> initial begin
+>   p = new();
+>   repeat (10) begin
+>     assert(p.randomize());
+>     $display("a = %016b", p.vec);
+>  end
+> end
+> 
+>endmodule
+>```
+>## Output
+>```
+>a = 0000000011111000
+>a = 0111110000000000
+>a = 0000000111110000
+>a = 0000000111110000
+>a = 0000000000011111
+>a = 0000000111110000
+>a = 0001111100000000
+>a = 0000000011111000
+>a = 0000000001111100
+>a = 0000011111000000
+>```
+
+>### Question 6) write a constraint for to generate unique prime numbers in between 0 to 100
+>```
+>
