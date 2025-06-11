@@ -59,6 +59,7 @@
 >  endfunction
 >  
 >endclass
+>endmodule
 >
 >module test;
 >  packet p;
@@ -78,6 +79,6 @@
 >---Object is not created---
 >```
   
-endmodule
+
 
 
