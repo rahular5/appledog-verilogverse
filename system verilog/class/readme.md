@@ -48,7 +48,7 @@
 >
 > ### Object and Handle : object is the memory and handle is the pointer to memory
 
->## write a sv programme to chek wether the object is created or not
+>## QUESTION] Write a sv programme to chek wether the object is created or not
 >```
 >class packet;
 >  bit [7:0] adress;
