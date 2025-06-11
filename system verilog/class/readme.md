@@ -48,7 +48,36 @@
 >
 > ### Object and Handle : object is the memory and handle is the pointer to memory
 
-
+>## write a sv programme to chek wether the object is created or not
+>```
+>class packet;
+>  bit [7:0] adress;
+>  bit [7:0] data;
+>  
+>  function void display();
+>    $display("adress : %0b and data : %0b",adress,data);
+>  endfunction
+>  
+>endclass
 >
+>module test;
+>  packet p;
+>  
+>  initial begin
+>    
+>    //p = new();
+>    
+>    if (p == null)
+>      $display("---Object is not created---");
+>    else
+>      p.display();
+>  end
+>```
+>### output
+>```
+>---Object is not created---
+>```
+  
+endmodule
 
 
