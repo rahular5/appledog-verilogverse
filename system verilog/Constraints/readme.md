@@ -597,6 +597,34 @@ A = '{16, 30, 32, 36, 68, 74, 78, 82, 84, 90, 98}
 >a = 0000011111000000
 >```
 
->### Question 6) write a constraint for to generate unique prime numbers in between 0 to 100
+>### Question 6) write a constraint for to generate followiing pattern 001100110011
 >```
+>class packet;
+>  rand int arr[16];
 >
+> constraint c2 {
+>    foreach (arr[i]) {
+>      if ((i % 4 == 0) || (i % 4 == 1)) {
+>        arr[i] == 0;
+>      } else {
+>        arr[i] == 1;
+>      }
+>    }
+>  }
+>        
+> 
+>endclass
+>
+>module test;
+> packet p;
+> initial begin
+>   p = new();
+>     assert(p.randomize());
+>     $display("A = %0p ",p.arr);
+> end
+>endmodule
+>```
+>## Output
+>```
+>A = '{0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1}
+>```
