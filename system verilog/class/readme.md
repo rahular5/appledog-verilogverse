@@ -11,7 +11,7 @@
 >         -  use new();
 >hence memory is allocated with the help of "new"
 >New memory set for each instance
->
+
 >## HOW TO DECLARE CLASS:
 >we cant write module inside class or class inside module
 > ### Example
