@@ -174,7 +174,7 @@
 >   ```
 >   typedef class A;
 >   ```
->   - typedef class is used for further instructing.
+> - typedef class is used for further instructing.
 
 
 
