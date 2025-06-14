@@ -1,6 +1,10 @@
 # Interface
 > #### use always logic type in the interface.
-> - interface is used to encapsulate communicatiuon between design blocks and between design and verification blocks
+> - interface is used to encapsulate communicatiuon between design blocks and between design and verification blocks.
+> - Encapsulating communicatiuon between block facilities design reuse.
+> - interface can be accesed therough ports as single item.
+> - signals can be added to and remove easilly from an interface without modifying any port list.
+> - interface can contain the connectivity, synchronixzation and optionally between two or more blocks.
 > 
 
 > Simple example for interface (half adder)
