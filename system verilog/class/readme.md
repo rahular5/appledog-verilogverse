@@ -146,7 +146,7 @@
 > ```
 
 ## Nesting of classes
-> nesting of classes means : the handle of class is declared in another class.
+> - ### nesting of classes means : the handle of class is declared in another class.
 > ```
 > class A;
 >  int a;
