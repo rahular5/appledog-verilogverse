@@ -145,6 +145,43 @@
 >addr=10 data=20
 > ```
 
+## Custom constructor
+>(1) write new function inside the class with arguments
+>(2) creation of the object
+>```
+>handel = new(args);
+>```
+>```
+>
+>class packet;
+>  int a;
+>  int b;
+>  function new(int x, int y);
+>    a = x;
+>    b = y;
+>  endfunction
+>  function void display();
+>    $display("a = %0d  b = %0d",a,b);
+>  endfunction
+>endclass
+>
+>module test;
+>  packet p;
+>  initial begin
+>    p = new(10,20);
+>    p.display;
+>  end
+>endmodule
+>```
+>
+>this pointer points or refers to the same class property or menthod
+>```
+>function new(int b, int b);
+>    this.a = a;
+>    this.b = b;
+>  endfunction
+>```
+
 ## Nesting of classes
 > - ### nesting of classes means : the handle of class is declared in another class.
 > ```
@@ -174,7 +211,7 @@
 >   ```
 >   typedef class A;
 >   ```
-> - typedef class is used for further instructing.
+> - ### typedef class is used for further instructing.
 
 
 
