@@ -1,6 +1,9 @@
 # Interface
+> #### use always logic type in the interface.
+> - interface is used to encapsulate communicatiuon between design blocks and between design and verification blocks
+> 
 
-> simple example for interface (half adder)
+> Simple example for interface (half adder)
 > ### interface block
 > ```
 > interface intf;
