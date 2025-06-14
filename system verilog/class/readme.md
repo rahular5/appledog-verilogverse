@@ -214,10 +214,22 @@
 > - ### typedef class is used for further instructing.
 
 # Copying content of one memory to another memory
->             COPY METHODS OF CLASS
->                      |
-> ----------------------------------------------
-> |                    |                       |
+>  COPY METHODS OF CLASS
+>           - Handle assign ment
+>           - Shallow Copy
+>           - Deep Copy
+>
+> ## Handle assignment
+> 
+> Syntax : Target handle = source handle;
+> ```
+> h2 = h1;
+> ```
+> content of h1 will be copied it into h2
+>  -it shares the memory for both the handles
+> ```
+> 
+>
 
 
 
