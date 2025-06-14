@@ -112,7 +112,8 @@
 >addr=0 data=0
 >addr=100 data=200
 >addr=100 data=200
-> // here we can see that p1 handle and p2 both handle are pointing toowards the same memory and memory name is the name of the class that is packet
+> // here we can see that p1 handle and p2 both handle are pointing toowards
+> the same memory and memory name is the name of the class that is packet
 > ```
 
   
