@@ -112,7 +112,7 @@
 >addr=0 data=0
 >addr=100 data=200
 >addr=100 data=200
-> // here we can see that p1 handle and p2 both handle are pointing toowards
+> // here we can see that p1 handle and p2 both handle are pointing towards
 > the same memory and memory name is the name of the class that is packet
 > ```
 >
@@ -139,7 +139,43 @@
 >  end
 >endmodule
 > ```
-> 
+> ### Output
+> ```
+> addr=0 data=0
+>addr=10 data=20
+> ```
+
+## Nesting of classes
+> nesting of classes means : the handle of class is declared in another class.
+> ```
+> class A;
+>  int a;
+>endclass
+>
+>class B;
+>  int b;
+>  A h_a;
+>  function new();
+>    h_a = new();
+>  endfunction
+>endclass
+>
+>module test;
+>  B h_b1;
+>  initial begin
+>    h_b1 = new();
+>    h_b1.h_a.a = 100;
+>    h_b1.b = 200;
+>    $display("a = %0d, b = %0d",h_b1.h_a.a,h_b1.b);
+>  end
+>endmodule
+> ```
+> - ### for nesting of the class if we are declaring handle in anothe class then this class has to be written before use
+>   ```
+>   typedef class A;
+>   ```
+>   - typedef class is used for further instructing.
+
 
 
   
