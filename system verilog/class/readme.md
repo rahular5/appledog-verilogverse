@@ -106,7 +106,7 @@
 >  end
 >endmodule
 >```
->### output
+>### Output
 > ```
 > addr=0 data=0
 >addr=0 data=0
@@ -115,6 +115,32 @@
 > // here we can see that p1 handle and p2 both handle are pointing toowards
 > the same memory and memory name is the name of the class that is packet
 > ```
+>
+> - How can you acess properties and methods of any class without using handle
+>   ```
+>   Scope resolution operator " :: "
+>   ```
+>   ### we can use when we have static method and static function
+> ```
+> class packet;
+>  static int addr;
+>  static int data ;
+>  static function void display();
+>    $display("addr=%0d data=%0d",addr,data);
+>  endfunction
+>endclass
+>
+>module test;
+>  initial begin
+>    packet :: display();
+>    packet :: addr = 10;
+>    packet :: data = 20;
+>    packet :: display();
+>  end
+>endmodule
+> ```
+> 
+
 
   
 
