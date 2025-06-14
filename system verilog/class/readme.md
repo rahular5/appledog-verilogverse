@@ -78,6 +78,43 @@
 >```
 >---Object is not created---
 >```
+
+> ## Class with static properties and static Methods.
+>
+> 1) write a static keyword before datatype and before function.
+> 2) Memory is allocated at the time of declaration ( without creating object we can acess memory )
+> 3) the memory name is always a class name.
+>
+>```
+> class packet;
+>  static int addr;
+>  static int data ;
+>  static function void display();
+>    $display("addr=%0d data=%0d",addr,data);
+>  endfunction
+>endclass
+>
+>module test;
+>  packet p1,p2;
+>  initial begin
+>    p1.display();
+>    p2.display();
+>    p1.addr = 100;
+>    p2.data = 200;
+>    p1.display();
+>    p2.display();
+>  end
+>endmodule
+>```
+>### output
+> ```
+> addr=0 data=0
+>addr=0 data=0
+>addr=100 data=200
+>addr=100 data=200
+> // here we can see that p1 handle and p2 both handle are pointing toowards the same memory and memory name is the name of the class that is packet
+> ```
+
   
 
 
