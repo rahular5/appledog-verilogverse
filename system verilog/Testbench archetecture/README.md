@@ -1,6 +1,7 @@
 # Interface
 
 > simple example for interface (half adder)
+> ### interface block
 > ```
 > interface intf;
 >  logic a,b,c,s;
@@ -8,12 +9,14 @@
 >  modport TEST (input c,s, output a,b);
 >endinterface
 > ```
+> ### Design block
 >```
 >module HA (intf inf);
 >  always_comb
 >  {inf.c,inf.s} = inf.a + inf.b;
 >endmodule
 >```
+>### Test block
 >```
 >module test(intf inf);
 >  initial begin
@@ -27,6 +30,7 @@
 >    end
 >endmodule
 >```
+>### Top module
 >```
 >module top;
 >  intf inf();
