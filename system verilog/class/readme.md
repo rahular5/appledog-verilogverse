@@ -213,6 +213,12 @@
 >   ```
 > - ### typedef class is used for further instructing.
 
+# Copying content of one memory to another memory
+>             COPY METHODS OF CLASS
+>                      |
+> ----------------------------------------------
+> |                    |                       |
+
 
 
   
