@@ -7,7 +7,7 @@
 > - interface can contain the connectivity, synchronixzation and optionally between two or more blocks.
 > 
 
-> Simple example for interface (half adder)
+> ## Simple example for interface (half adder)
 > ### interface block
 > ```
 > interface intf;
