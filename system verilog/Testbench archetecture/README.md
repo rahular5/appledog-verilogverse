@@ -46,7 +46,7 @@
 >endmodule
 >```
 # CASE STUDY
-> (1) Design and implementation of full adder and verification  of full adder and verification using system verilog.
+> ## (1) Design and implementation of full adder and verification  of full adder and verification using system verilog.
 > <img width="490" alt="Screenshot 2025-06-16 at 5 33 29 PM" src="https://github.com/user-attachments/assets/3b09c5b8-1138-498c-871a-57ea323eb951" />
 >
 
