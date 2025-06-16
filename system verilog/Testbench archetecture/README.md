@@ -9,6 +9,7 @@
 
 > ## Simple example for interface (half adder)
 > ### interface block
+>
 > ```
 > interface intf;
 >  logic a,b,c,s;
@@ -16,14 +17,18 @@
 >  modport TEST (input c,s, output a,b);
 >endinterface
 > ```
+> 
 > ### Design block
+> 
 >```
 >module HA (intf inf);
 >  always_comb
 >  {inf.c,inf.s} = inf.a + inf.b;
 >endmodule
 >```
+>
 >### Test block
+> 
 >```
 >module test(intf inf);
 >  initial begin
@@ -37,7 +42,9 @@
 >    end
 >endmodule
 >```
+>
 >### Top module
+> 
 >```
 >module top;
 >  intf inf();
@@ -47,20 +54,27 @@
 >```
 # CASE STUDY
 > ## (1) Design and implementation of full adder and verification  of full adder and verification using system verilog.
+> -----------
 > <img width="490" alt="Screenshot 2025-06-16 at 5 33 29 PM" src="https://github.com/user-attachments/assets/3b09c5b8-1138-498c-871a-57ea323eb951" />
+>
 > ### DUT
+> 
 >```
 >module FA(input A, B, Cin, output S, Cout);
 >  assign {Cout, S} = A + B + Cin;
 >endmodule
 >```
+>
 > ### Interface
+> 
 > ```
 > interface fa_intf;
 >  logic A, B, Cin, S, Cout;
 >endinterface
 > ```
+> 
 > ### Transaction
+> 
 > ```
 > class transaction;
 >  rand bit A, B, Cin;     
@@ -71,7 +85,9 @@
 >  endfunction
 >endclass
 > ```
+> 
 > ### Generator
+> 
 > ```
 > class generator;
 >  rand transaction tr;
@@ -91,7 +107,9 @@
 >  endtask
 >endclass
 > ```
+> 
 > ### Driver
+> 
 > ```
 > class driver;
 >  transaction tr;
@@ -116,7 +134,9 @@
 >  endtask
 >endclass
 > ```
+> 
 > ### Monitor
+> 
 > ```
 > class monitor;
 >  transaction tr;
@@ -144,7 +164,9 @@
 >  endtask
 >endclass
 > ```
+> 
 > ### Scoreboard
+> 
 > ```
 > class scoreboard;
 >  transaction tr;
