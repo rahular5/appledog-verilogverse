@@ -111,14 +111,16 @@ array is '{9, 11, 9, 2}
 array is '{11, 9} 
 array is '{}
 ```
+-------------------------
 ### Array query functions
-  * $left
-  * $right
+  * $left - Returns left bound of the dimensions
+  * $right - Returns right bound of the dimensions
   * $increment
   * $high
   * $low
-  * $size
-  * $dimensions
-  * $unpacked_dimensions
+  * $size - First unpacked dimensions
+  * $dimensions - returns total number of dimensions 
+  * $unpacked_dimensions - returns total no of unpacked dimension
+```
     
     
