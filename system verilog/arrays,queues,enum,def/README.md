@@ -129,10 +129,10 @@ module tb;
   logic [7:0][15:0]arr2[2:0][3:0];
   
   initial begin
-    $display("%d",$dimensions(arr1));			       // Output : 2
-    $display("%d",$dimensions(arr2));			       // Output : 4
-    $display("%d",$unpacked_dimensions(arr1));	 // Output : 1
-    $display("%d",$unpacked_dimensions(arr2));	 // Output : 2
+    $display("%d",$dimensions(arr1));			                      // Output : 2
+    $display("%d",$dimensions(arr2));			                      // Output : 4
+    $display("%d",$unpacked_dimensions(arr1));	                // Output : 1
+    $display("%d",$unpacked_dimensions(arr2));	                // Output : 2
     $display("%d",$left(arr1)); 				         // Output : 1
     $display("%d",$left(arr2));                  // Output : 2
     $display("%d",$right(arr1));                 // Output : 63
