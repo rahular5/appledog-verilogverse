@@ -7,6 +7,6 @@
     ```
 -------------------
 ### Operators 
-    - size(); // returns number of elements in the queue
-    - insert(index,item); // Method to insert item at given index example (2,5)
+  - size(); // returns number of elements in the queue
+  - insert(index,item); // Method to insert item at given index example (2,5)
     
