@@ -129,22 +129,22 @@ module tb;
   logic [7:0][15:0]arr2[2:0][3:0];
   
   initial begin
-    $display("%d",$dimensions(arr1));			                      // Output : 2
-    $display("%d",$dimensions(arr2));			                      // Output : 4
-    $display("%d",$unpacked_dimensions(arr1));	                // Output : 1
-    $display("%d",$unpacked_dimensions(arr2));	                // Output : 2
-    $display("%d",$left(arr1)); 				         // Output : 1
-    $display("%d",$left(arr2));                  // Output : 2
-    $display("%d",$right(arr1));                 // Output : 63
-    $display("%d",$right(arr2));				         // Output : 0
-    $display("%d",$low(arr1));					         // Output : 1
-    $display("%d",$low(arr2));					         // Output : 0
-    $display("%d",$high(arr1));					         // Output : 63
-    $display("%d",$high(arr2));					         // Output : 2
-    $display("%d",$increment(arr1));			       // Output : -1
-    $display("%d",$increment(arr2));			       // Output : 1
-    $display("%d",$size(arr1));					         // Output : 63
-    $display("%d",$size(arr2));					         // Output : 3
+    $display("%d",$dimensions(arr1));	// Output : 2
+    $display("%d",$dimensions(arr2));	// Output : 4
+    $display("%d",$unpacked_dimensions(arr1)); // Output : 1
+    $display("%d",$unpacked_dimensions(arr2)); // Output : 2
+    $display("%d",$left(arr1)); // Output : 1
+    $display("%d",$left(arr2)); // Output : 2
+    $display("%d",$right(arr1)); // Output : 63
+    $display("%d",$right(arr2)); // Output : 0
+    $display("%d",$low(arr1)); // Output : 1
+    $display("%d",$low(arr2)); // Output : 0
+    $display("%d",$high(arr1));	// Output : 63
+    $display("%d",$high(arr2));	// Output : 2
+    $display("%d",$increment(arr1)); // Output : -1
+    $display("%d",$increment(arr2)); // Output : 1
+    $display("%d",$size(arr1));	// Output : 63
+    $display("%d",$size(arr2));	// Output : 3
   end
 
 endmodule
