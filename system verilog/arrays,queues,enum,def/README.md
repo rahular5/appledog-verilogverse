@@ -68,5 +68,48 @@ Element 4 is poped from back in the array '{2, 3}
 ```
 #### without those how to perform all those functions without keyword
 ```
+  module tb;
+    int q[$]  = '{5, 7, 9, 11, 2};
+    
+    initial begin
+    
+    q = {q,6}; // q.push_back(6);
+    $display("array is %p",q);
+    
+    q = {3,q}; // q.push_front(3);
+    $display("array is %p",q);
+    
+    q = q[1:$]; // void'(q.pop_front(1));
+    $display("array is %p",q);
+    
+    q = q[0:$-1]; // void'(q.pop_back(1));
+    $display("array is %p",q);
+    
+    q = {q[0:3],9,q[4:$]}; // q.insert(4,9);
+    $display("array is %p",q);
+      
+    q = q[2:$]; // queue lacking the first two items
+    $display("array is %p",q);
+    
+    q = q[1:$-1]; // queue lacking the first and last items
+    $display("array is %p",q);
+    
+    q = {}; // q.delete();
+    $display("array is %p",q);    
+      
+    end
+  endmodule
+```
+### Output
+```
+array is '{5, 7, 9, 11, 2, 6} 
+array is '{3, 5, 7, 9, 11, 2, 6} 
+array is '{5, 7, 9, 11, 2, 6} 
+array is '{5, 7, 9, 11, 2} 
+array is '{5, 7, 9, 11, 9, 2} 
+array is '{9, 11, 9, 2} 
+array is '{11, 9} 
+array is '{}
+```
 
     
