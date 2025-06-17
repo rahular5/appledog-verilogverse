@@ -111,5 +111,14 @@ array is '{9, 11, 9, 2}
 array is '{11, 9} 
 array is '{}
 ```
-
+### Array query functions
+  * $left
+  * $right
+  * $increment
+  * $high
+  * $low
+  * $size
+  * $dimensions
+  * $unpacked_dimensions
+    
     
